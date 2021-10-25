@@ -99,53 +99,34 @@ body{
       border: 1px solid rgb(94, 32, 238) ;
   }
 
-.jujuy {
- color: darkblue;  
+.provincia {
+ color: darkblue; 
+ font-size: 22px; 
+ 
   }
 
-.salta{
-    color: darkblue;
-}  
-.catamarca{
-    color: darkblue;
-    
-}
-.tucuman{
-    color: darkblue;
-}
-.santiago_del_estero{
-    color: darkblue;
-}
-.cordoba{
-    color: darkblue;
-}
-.santa_fe{
-    color: darkblue;
-}
-.entre_rios{
-    color: darkblue;
-}
-.misiones{
-    color: darkblue;
-}
-.buenos_aires{
-    color: darkblue;
-}
-.mendoza{
-    color: darkblue;
-}
-.rio_negro{
-    color: darkblue;
-}
-.chubut{
-    color: darkblue;
-}
-.santa_cruz{
-    color: darkblue;
+.comienzo {
+    color: #09424b;
+    text-decoration: underline;
+    text-transform: capitalize;
+
 }
 
+.question {
+    letter-spacing: 3px;
+    text-transform: capitalize;
 
+}
 
+.principales{
+    text-decoration: underline;
+}
 
-
-
+.container-fluid{
+    align-items: center;
+    margin: 20px;
+    margin-left: 20px;
+    padding-right:20px; 
+    padding-left: 20px; 
+    text-align: justify center; 
+}
