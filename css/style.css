@@ -23,10 +23,9 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-
-
-
 }
+
+
 .login-in .avatar{
     width: 100px;
     height: 100px;
@@ -36,6 +35,29 @@ body{
     5px #ecf0f3, 8px 8px 15px #a7aaaf,
       -8px -8px 15px #fff;
     
+}
+.mb-12{
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.mb-12 .logo{
+  width: 100px; height: 100px;
+ align-items: center;
+ border-radius: 50%;
+    margin:0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px
+    5px #ecf0f3, 8px 8px 15px #a7aaaf,
+      -8px -8px 15px #fff;
+} 
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 20px;
+    font-weight: 100;
 }
 .login-in .title{
     text-align: center;
@@ -56,16 +78,22 @@ body{
     color: #555;
     padding: 20px 10px 20px 5px;
 }
+.form-label{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+
 .username,
-.password, .email, .repassword{
+.password, .email, .repassword, .nacimiento {
     margin-bottom: 30px;
     border-radius: 25px;
     box-shadow: inset 8px 8px 8px #cbced1,inset
-     -8px -8px 8px #fff;
-   
-    
-
+     -8px -8px 8px #fff; 
 }
+
 .fields svg{
    height: 22px;
    margin: 0 10px -3px 25px; 
@@ -114,7 +142,8 @@ body{
 }
 .login-create{
     width: 430px;
-    height: 700px;
+    height: 770px;
+    margin-top: 25px;
     padding: 30px 35px 35px 35px;
     border-radius: 40px;
     background-color: #e1edf7;
@@ -175,19 +204,4 @@ body{
     }
 
    
-
-
-    
-    
-
-   
-    
-
-    
-    
-    
-    
-    
-    
-
 
