@@ -55,7 +55,7 @@
       <h1 class="titulo">ClickAr</h1>
       <p class="subtitulo">Viajando por Argentina a través de un Click</p>
     </div>     
-
+   
    </header>
   
 
@@ -70,9 +70,15 @@
 
 <section>
   <aside>
+
+   
   
     <h1>Sitios Turísticos de Argentina </h1>
-    <p class="question">Cuál visitarías?..</p>
+    <div id="findeano">
+
+    </div>
+
+    <p class="question">Cuál visitarías?..</p> <button id="alertauno">"PRESIONA AQUI"</button>
     <p class="comienzo">Podemos comenzar por el Norte:</p>
 
     <div class="container-fluid"> 
@@ -85,13 +91,13 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-             <p class="provincia">Provincia: <strong>JUJUY <a class="btn btn-info margin-left-5" href="http://jujuy.gob.ar/home/" target="_blank">Sitio Oficial</a></strong> </p>
+             <p class="provincia">Provincia: <strong id="jujuy">JUJUY </strong> </p>
              <i class="bi bi-aspect-ratio"></i>
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Principales sitios para visitar: 
+            <p>Principales sitios para visitar: <span><a class="btn btn-info margin-left-5" href="http://jujuy.gob.ar/home/" target="_blank">Sitio Oficial</a></span>
                        <ul>
                          <li> <span class="text-primary">"TERMAS DEL JORDAN"</span> </li>
                          <p>Para llegar a éste pedacito de Edén,hay que dirigirse hasta el 
@@ -125,13 +131,13 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingTwo">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-         <p class="provincia">Provincia: <strong>SALTA <a class="btn btn-info margin-left-5" href="https://www.salta.gob.ar/" target="_blank">Sitio Oficial</a></strong></p>         
+         <p class="provincia">Provincia: <strong id="salta">SALTA </strong></p>         
   
         </button>
       </h2>
       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <p> <span class="principales">Principales Sitios para visitar:</span>
+          <p> <span class="principales">Principales Sitios para visitar:</span> <span><a class="btn btn-info margin-left-5" href="https://www.salta.gob.ar/" target="_blank">Sitio Oficial</a></span>
                      <ul>
                        <li><span class="text-primary">"QUEBRADA DE LAS CONCHAS Y CAFAYATE" </span> </li>
                        <P>Una formación geológica de grandes paredes de piedra rojiza que han sido esculpidas caprichosamente debido a la erosión del viento
@@ -152,14 +158,14 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingThree">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-         <p class="provincia">Provincia: <strong>TUCUMÁN <a class="btn btn-info margin-left-5" href="https://www.tucuman.gob.ar/" target="_blank">Sitio Oficial</a></strong>  </p>        
+         <p class="provincia">Provincia: <strong id="tucuman">TUCUMÁN </strong>  </p>        
   
         </button>
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           
-    <p><span class="principales">Principales Sitios para visitar:</span>
+    <p><span class="principales">Principales Sitios para visitar:</span> <span><a class="btn btn-info margin-left-5" href="https://www.tucuman.gob.ar/" target="_blank">Sitio Oficial</a></span>
                    <ul>
                      <li> <span class="text-primary">"LA CASA DE TUCUMÁN"</span>  </li>
                      <p>La Casa Histórica de Tucumán es una casona construida a finales del siglo XVIII, ubicada en Congreso 141.
@@ -188,12 +194,12 @@
        <div class="accordion-item">
         <h2 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-           <p class="provincia">Provincia: <strong> CATAMARCA <a class="btn btn-info margin-left-5" href="https://portal.catamarca.gob.ar/ui/" target="_blank">Sitio Oficial </a></strong> </p>
+           <p class="provincia">Provincia: <strong id="catamarca"> CATAMARCA </strong> </p>
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-          <p><span class="principales">Principales Sitios para visitar:</span>
+          <p><span class="principales">Principales Sitios para visitar:</span> <span><a class="btn btn-info margin-left-5" href="https://portal.catamarca.gob.ar/ui/" target="_blank">Sitio Oficial </a></span>
                     <ul>
                       <li> <span class="text-primary">"TERMAS DE TINOGASTA"</span> </li>
                       <p>Esta ciudad localizada a 273 km de la capital de Catamarca posee varios actividades para hacer. 
@@ -219,13 +225,13 @@
          <div class="accordion-item">
           <h2 class="accordion-header" id="headingFive">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              <p class="provincia">Provincia: <strong> SANTIAGO DEL ESTERO <a class="btn btn-info margin-left-5" href="http://www.sde.gov.ar/" target="_blank"> Sitio Oficial</a></strong> </p> 
+              <p class="provincia">Provincia: <strong id="santiago"> SANTIAGO DEL ESTERO </strong> </p> 
       
             </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-             <p><span class="principales">Principales Sitios para visitar:</span>
+             <p><span class="principales">Principales Sitios para visitar:</span><span><a class="btn btn-info margin-left-5" href="http://www.sde.gov.ar/" target="_blank"> Sitio Oficial</a></span>
                       <ul>
                          <li> <span class="text-primary">"PARQUE NACIONAL COPO"</span> </li>
                          <p>Este hermoso parque nacional y hogar de especies en peligro se encuentra en el noreste de la provincia de Santiago del Estero
@@ -252,14 +258,14 @@
          <div class="accordion-item">
           <h2 class="accordion-header" id="headingSix">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              <p class="provincia">Provincia: <strong>CÓRDOBA <a class="btn btn-info margin-left-5" href="https://www.cba.gov.ar/" target="_blank">Sitio Oficial</a></strong> </p>
+              <p class="provincia">Provincia: <strong id="cordoba">CÓRDOBA </strong> </p>
       
             </button>
           </h2>
           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                  
-             <p><span class="principales">Principales Sitios para visitar:</span>
+             <p><span class="principales">Principales Sitios para visitar:</span><span><a class="btn btn-info margin-left-5" href="https://www.cba.gov.ar/" target="_blank">Sitio Oficial</a></span>
                    <ul>
                        <li> <span class="text-primary"> "SIERRAS CHICAS"</span> </li>
                        <p>Son un hilo montañoso que se extiende desde la localidad de Charbonier hasta más allá de la ciudad de Alta Gracia.
@@ -305,14 +311,14 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingSeven">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-               <p class="provincia">Provincia: <strong>SANTA FE <a class="btn btn-info margin-left-5" href="https://www.santafe.gov.ar/" target="_blank">Sitio Oficial</a></strong> </p>
+               <p class="provincia">Provincia: <strong id="santafe">SANTA FE </strong> </p>
       
             </button>
           </h2>
           <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                  
-               <p> <span class="principales">Principales Sitios para visitar:</span>
+               <p> <span class="principales">Principales Sitios para visitar:</span><span><a class="btn btn-info margin-left-5" href="https://www.santafe.gov.ar/" target="_blank">Sitio Oficial</a></span>
                 <ul>
                     <li> <span class="text-primary">"SANTA FE CAPITAL"</span> </li>
                     <p>La provincia de Santa Fe,
@@ -342,14 +348,14 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingEigth">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEigth" aria-expanded="false" aria-controls="collapseEigth">
-        <p class="provincia">Provincia: <strong>ENTRE RIOS <a class="btn btn-info margin-left-5" href="https://www.entrerios.gov.ar/portal/" target="_blank">Sitio Oficial</a></strong> </p> 
+        <p class="provincia">Provincia: <strong id="entrerios">ENTRE RIOS </strong> </p> 
 
       </button>
     </h2>
     <div id="collapseEigth" class="accordion-collapse collapse" aria-labelledby="headingEigth" data-bs-parent="#accordionExample">
       <div class="accordion-body">
            
-            <P><span class="principales">Principales Sitios para visitar:</span>
+            <P><span class="principales">Principales Sitios para visitar:</span> <span><a class="btn btn-info margin-left-5" href="https://www.entrerios.gov.ar/portal/" target="_blank">Sitio Oficial</a></span>
               <ul>
                    <li> <span class="text-primary">"PLAYAS DE ENTRE RÍOS"</span> </li>
                     <p>Los grandes atractivos están en Colón, considerada la capital del turismo por ser receptor de visitantes durante todo el año.
@@ -390,14 +396,14 @@
        <div class="accordion-item">
         <h2 class="accordion-header" id="headingNine">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-         <p class="provincia">Provincia: <strong>MISIONES <a class="btn btn-info margin-left-5" href="https://misiones.gob.ar/" target="_blank">Sitio Oficial</a></strong> </p>    
+         <p class="provincia">Provincia: <strong id="misiones">MISIONES </strong> </p>    
     
           </button>
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
           <div class="accordion-body">
                
-              <p><span class="principales">Principales Sitios para visitar:</span>
+              <p><span class="principales">Principales Sitios para visitar:</span> <span><a class="btn btn-info margin-left-5" href="https://misiones.gob.ar/" target="_blank">Sitio Oficial</a></span>
              <ul>
                  <li> <span class="text-primary">"CATARATAS DEL IGUAZÚ"</span> </li>
                  <p>Es una de las 7 maravillas del mundo, 
@@ -443,14 +449,14 @@
           <h2 class="accordion-header" id="headingTen">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
             
-          <p class="provincia"> Provincia: <strong>BUENOS AIRES <a class="btn btn-info margin-left-5" href="https://www.gba.gob.ar/">Sitio Oficial</a></strong> </p>
+          <p class="provincia"> Provincia: <strong id="buenosaires">BUENOS AIRES </strong> </p>
       
             </button>
           </h2>
           <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                  
-                <p><span class="principales">Principales Sitios para visitar:</span>
+                <p><span class="principales">Principales Sitios para visitar:</span> <span><a class="btn btn-info margin-left-5" href="https://www.gba.gob.ar/">Sitio Oficial</a></span>
                      <ul>
                           <li> <span class="text-primary">"CIUDAD DE BUENOS AIRES"</span> </li>
                            <p>Esta metrópoli en particular lo tiene todo para ser uno de los destinos preferidos de millones de viajeros.
@@ -504,13 +510,13 @@
        <div class="accordion-item">
         <h2 class="accordion-header" id="headingEleven">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-          <p class="provincia">Provincia: <strong>MENDOZA <a  class="btn btn-info margin-left-5" href="https://www.mendoza.gov.ar/" target="_blank">Sitio Oficial</a></strong> </p>
+          <p class="provincia">Provincia: <strong id="mendoza">MENDOZA </strong> </p>
       
           </button>
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p><span class="principales">Principales Sitios para visitar:</span>
+            <p><span class="principales">Principales Sitios para visitar:</span><span><a  class="btn btn-info margin-left-5" href="https://www.mendoza.gov.ar/" target="_blank">Sitio Oficial</a></span>
                     <ul>
                        <li> <span class="text-primary"> "PUENTE DEL INCA"</span> </li>
                        <p>Se encuentra ubicado en la cordillera de los Andes,
@@ -566,14 +572,14 @@
        <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwelve">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-         <P class="provincia">Provincia: <strong>RIO NEGRO <a class="btn btn-info margin-left-5" href="https://rionegro.gov.ar/" target="_blank">Sitio Oficial</a></strong> </P>
+         <P class="provincia">Provincia: <strong id="rionegro">RIO NEGRO </strong> </P>
       
           </button>
         </h2>
         <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
           <div class="accordion-body">
          
-                <p><span class="principales">Principales Sitios para visitar:</span>
+                <p><span class="principales">Principales Sitios para visitar:</span> <span><a class="btn btn-info margin-left-5" href="https://rionegro.gov.ar/" target="_blank">Sitio Oficial</a></span>
            <ul>
             <li> <span class="text-primary">"LAS GRUTAS"</span> </li>
             <p>Las Grutas están específicamente en el Golfo San Matías, justo donde está la costa Atlántica.
@@ -614,13 +620,13 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingThirteen">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-          <p class="provincia">Provincia: <strong>CHUBUT <a class="btn btn-info margin-left-5" href="http://www.chubut.gov.ar/site/inicio" target="_blank">Sitio Oficial</a></strong> </p>
+          <p class="provincia">Provincia: <strong id="chubut">CHUBUT </strong> </p>
       
           </button>
         </h2>
         <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-           <p><span class="principales">Principales Sitios para visitar:</span>
+           <p><span class="principales">Principales Sitios para visitar:</span><span><a class="btn btn-info margin-left-5" href="http://www.chubut.gov.ar/site/inicio" target="_blank">Sitio Oficial</a></span>
            <ul>
                 <li> <span class="text-primary">"PENÍNSULA VALDÉS</span> </li>
                 <p>Se trata de una de las penínsulas con mayor tamaño en la provincia y que además se encuentra protegida 
@@ -656,13 +662,13 @@
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingFourteen">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-      <p class="provincia">Provincia: <strong>SANTA CRUZ <a class="btn btn-info margin-left-5" href="https://www.santacruz.gob.ar/" target="_blank">Sitio Oficial</a></strong> </p> 
+      <p class="provincia">Provincia: <strong id="santacruz">SANTA CRUZ </strong> </p> 
     
         </button>
       </h2>
       <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-               <p><span class="principales">Principales Sitios para visitar:</span>
+               <p><span class="principales">Principales Sitios para visitar:</span><span><a class="btn btn-info margin-left-5" href="https://www.santacruz.gob.ar/" target="_blank">Sitio Oficial</a></span>
           <ul>
               <li> <span class="text-primary">"EL CALAFATE"</span> </li>
                <p>Muy cerca de Río Negro, a unos 320 kilómetros,
@@ -698,6 +704,59 @@
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/funcionesGrupo99.js">
+
+</script>
+<script type="text/javascript">
+document.getElementById('findeano').innerHTML="Faltan" +" " +diferenciaDias('2022-01-01') + " días para el 2022";
+
+document.getElementById("salta").onmouseover= function(){cambiarColor('salta','red')};
+document.getElementById("salta").onmouseout = function (){cambiarColor('salta','blue')};
+
+document.getElementById("jujuy").onmouseover= function(){cambiarColor('jujuy','red')};
+document.getElementById("jujuy").onmouseout = function (){cambiarColor('jujuy','blue')};
+
+document.getElementById("tucuman").onmouseover= function(){cambiarColor('tucuman','red')};
+document.getElementById("tucuman").onmouseout = function (){cambiarColor('tucuman','blue')};
+
+document.getElementById("catamarca").onmouseover= function(){cambiarColor('catamarca','red')};
+document.getElementById("catamarca").onmouseout = function (){cambiarColor('catamarca','blue')};
+
+document.getElementById("santafe").onmouseover= function(){cambiarColor('santafe','red')};
+document.getElementById("santafe").onmouseout = function (){cambiarColor('santafe','blue')};
+
+document.getElementById("cordoba").onmouseover= function(){cambiarColor('cordoba','red')};
+document.getElementById("cordoba").onmouseout = function (){cambiarColor('cordoba','blue')};
+
+document.getElementById("santiago").onmouseover= function(){cambiarColor('santiago','red')};
+document.getElementById("santiago").onmouseout = function (){cambiarColor('santiago','blue')};
+
+document.getElementById("buenosaires").onmouseover= function(){cambiarColor('buenosaires','red')};
+document.getElementById("buenosaires").onmouseout = function (){cambiarColor('buenosaires','blue')};
+
+document.getElementById("mendoza").onmouseover= function(){cambiarColor('mendoza','red')};
+document.getElementById("mendoza").onmouseout = function (){cambiarColor('mendoza','blue')};
+
+document.getElementById("entrerios").onmouseover= function(){cambiarColor('entrerios','red')};
+document.getElementById("entrerios").onmouseout = function (){cambiarColor('entrerios','blue')};
+
+document.getElementById("misiones").onmouseover= function(){cambiarColor('misiones','red')};
+document.getElementById("misiones").onmouseout = function (){cambiarColor('misiones','blue')};
+
+document.getElementById("rionegro").onmouseover= function(){cambiarColor('rionegro','red')};
+document.getElementById("rionegro").onmouseout = function (){cambiarColor('rionegro','blue')};
+
+document.getElementById("chubut").onmouseover= function(){cambiarColor('chubut','red')};
+document.getElementById("chubut").onmouseout = function (){cambiarColor('chubut','blue')};
+
+document.getElementById("santacruz").onmouseover= function(){cambiarColor('santacruz','red')};
+document.getElementById("santacruz").onmouseout = function (){cambiarColor('santacruz','blue')};
+
+document.getElementById('alertauno').onclick = function(){mostrarMensaje('YA ELEGISTE ALGUNA PARA TUS VACACIONES?')};
+</script>
+
+
 
 
 <footer>
