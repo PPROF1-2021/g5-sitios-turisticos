@@ -1,6 +1,9 @@
 *{
    box-sizing: border-box; 
 }
+.html {
+  scroll-behavior: smooth;
+}
 body{
     margin: 0;
     height: 100vh;
@@ -202,6 +205,7 @@ h1{
 .title {
     margin-top: 25px;
     }
+
 
    
 
