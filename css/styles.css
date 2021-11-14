@@ -133,3 +133,16 @@
     padding-left: 20px; 
     text-align: justify center; 
 }
+#findeano{
+    color: #09424b;
+    background-color: aquamarine;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center center;
+    margin-left: 1500px;
+}
+#alertauno{
+    color:aqua ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+}
