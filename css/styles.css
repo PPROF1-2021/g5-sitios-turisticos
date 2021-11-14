@@ -1,6 +1,9 @@
 .html,.body{
-    margin:0;
+    margin:10rem;
     padding: 0;
+}
+.html{
+    scroll-behavior: smooth;
 }
 .body{
     width: 100%;
@@ -10,8 +13,8 @@
     line-height: 1.6;
     background: url('/img/argentina.png');
     background-repeat: no-repeat;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10rem;
+    margin-right: 10rem;
     background-color: #ecf0f3;
 
 }
@@ -145,4 +148,24 @@
     color:aqua ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: blue;
+}
+.mendoza1{
+    width: 70px;
+    
+}
+.mendoza2{
+    width: 70px;
+    align-items: right;
+}
+#calendario1{
+    font-size: 30px;
+}
+#calendario2{
+    font-size: 30px;
+}
+#chat{
+    font-size: 30px;
+}
+#flecha{
+    font-size: 30px;
 }
