@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
    box-sizing: border-box; 
 }
@@ -208,3 +209,216 @@ h1{
 
    
 
+=======
+*{
+   box-sizing: border-box; 
+}
+.html {
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: "Lato",sans-serif;
+    font-weight: 700;
+    color: #555;
+    background-color: #ecf0f3;
+}
+.login-in{
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px 8px 20px rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.login-in .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px
+    5px #ecf0f3, 8px 8px 15px #a7aaaf,
+      -8px -8px 15px #fff;
+    
+}
+.mb-12{
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.mb-12 .logo{
+  width: 100px; height: 100px;
+ align-items: center;
+ border-radius: 50%;
+    margin:0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px
+    5px #ecf0f3, 8px 8px 15px #a7aaaf,
+      -8px -8px 15px #fff;
+} 
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.login-in .title{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  
+}
+.fields{
+    width: 100%;
+    padding: 25px 4px 4px 4px;
+}
+.fields input{
+    border:none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+.form-label{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+
+.username,
+.password, .email, .repassword, .nacimiento {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,inset
+     -8px -8px 8px #fff; 
+}
+
+.fields svg{
+   height: 22px;
+   margin: 0 10px -3px 25px; 
+}
+.fields .signin-button,
+.signup-button{
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif ;
+    color:#fff;
+    text-align: center;
+    background-color: rgb(127, 219, 255) ;
+    box-shadow: 3PX 3PX 8PX #b1b1b1, -3px .3px 8px #fff; 
+    transition: all 0.5s;
+
+
+}
+.fields .signin-button:hover{
+    background-color: rgb(32, 110, 228);
+}
+.fields .signin-button:active{
+    background-color:#50e5b9 ;
+}
+.link{
+   padding-top: 20px;
+   text-align: center; 
+}
+.link .h1{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+    font-family: "Lato", sans-serif ;
+}
+.link a{
+    text-decoration:none;
+    color: #aaa;
+    font-size: 15px;
+
+}
+.login-create{
+    width: 430px;
+    height: 770px;
+    margin-top: 25px;
+    padding: 30px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #e1edf7;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px 8px 20px #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        margin: 0 auto;
+
+
+
+}
+.login-create .avatar2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px
+    5px #ecf0f3, 8px 8px 15px #a7aaaf,
+      -8px -8px 15px #fff;
+    
+}
+.fields .signup-button:hover{
+    background-color: rgb(32, 110, 228);
+}
+.fields .signup-button:active{
+    background-color:#50e5b9 ;
+}
+
+
+.nav {
+    list-style:none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }  
+
+  .nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+  }
+  .nav li{
+    display: inline-block;
+    text-align: center;
+  }
+  .nav li a:hover{
+    background: #37A0D8;
+  }
+
+
+.title {
+    margin-top: 25px;
+    }
+
+
+   
+
+>>>>>>> 861ec179914428d59bb97bba9a8cd4ab5cb3f125
