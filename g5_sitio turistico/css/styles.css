@@ -1,0 +1,148 @@
+.html,.body{
+    margin:0;
+    padding: 0;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background: url('/img/argentina.png');
+    background-repeat: no-repeat;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #ecf0f3;
+
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    color: #3484AF;
+    margin-top: 100px;
+    font-weight: 100;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0,0, 0,2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+
+}
+.container.card{
+    width: 330px;
+    height: 438px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0,0, 0,2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.republica{
+    color:#08088A ;
+    font-size:x-large;
+}
+
+.clickar {
+    text-align: center;
+    color: #37A0D8;
+}
+.p {
+    font-size: x-large;
+}
+.titulo{
+    color: #08088A;
+}
+
+
+.logo {
+    width: 100px; height: 100px;
+ align-items: center;
+ border-radius: 50%;
+    margin:0 auto;
+    float:initial;
+
+}
+.subtitulo {
+    text-decoration:underline;
+    text-align: center;
+    color: #08088A;
+    font-style: italic;  
+}
+    
+.nav {
+    list-style:none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }  
+
+  .nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+  }
+  .nav li{
+    display: inline-block;
+    text-align: center;
+  }
+  .nav li a:hover{
+    background: #37A0D8;
+  }
+.section{
+      border: 1px solid rgb(94, 32, 238) ;
+  }
+
+.provincia {
+ color: darkblue; 
+ font-size: 22px; 
+ 
+  }
+
+.comienzo {
+    color: #09424b;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+
+.question {
+    letter-spacing: 3px;
+    text-transform: capitalize;
+
+}
+
+.principales{
+    text-decoration: underline;
+}
+
+.container-fluid{
+    align-items: center;
+    margin: 20px;
+    margin-left: 20px;
+    padding-right:20px; 
+    padding-left: 20px; 
+    text-align: justify center; 
+}
+#findeano{
+    color: #09424b;
+    background-color: aquamarine;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center center;
+    margin-left: 1500px;
+}
+#alertauno{
+    color:aqua ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+}
