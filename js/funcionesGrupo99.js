@@ -52,7 +52,14 @@ function obtenerdatos()
   document.write("contraseña: "+contraseña+"<br>");
 }
 
-setTimeout(function(obtenerdatos) {
-  location.href='index.html';
+function redirigirHome() {
+  setTimeout(function(obtenerdatos) {
+    location.href='index.html';
 
-}, 1000 *10);
+  }, 5000);
+}
+
+function irAlCielo() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

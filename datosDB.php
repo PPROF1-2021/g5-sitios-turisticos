@@ -1,9 +1,9 @@
 <?php
 
-$host="localhost";
-$usuario="root";
-$clave="39719193vV.";
-$basededatos="iefi";
+$host="fdb31.batcave.net";
+$usuario="3939467_sitios";
+$clave="Diciembre22/";
+$basededatos="3939467_sitios";
 
 $conn = new mysqli($host, $usuario, $clave, $basededatos);
 mysqli_query($conn , "SET character_set_result=utf");

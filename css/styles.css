@@ -11,10 +11,6 @@ body{
     font-family: sans-serif;
     letter-spacing: 0.03em;
     line-height: 1.6;
-    background: url('/img/argentina.png');
-    background-repeat: no-repeat;
-    margin-left: 10rem;
-    margin-right: 10rem;
     background-color: #ecf0f3;
 
 }
@@ -24,17 +20,6 @@ body{
     color: #3484AF;
     margin-top: 100px;
     font-weight: 100;
-}
-.container{
-    width: 100%;
-    max-width: 1200px;
-    height: 430px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0,0, 0,2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-
 }
 .container.card{
     width: 330px;
@@ -81,11 +66,11 @@ body{
     
 .nav {
     list-style:none;
-    padding: 0;
+    padding: 8px;
     background: #092327;
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
     margin: auto;
+    font-weight: bold;
   }  
 
   .nav li a{
@@ -138,11 +123,10 @@ body{
 }
 #findeano{
     color: #09424b;
-    background-color: aquamarine;
+    background-color: lightblue;
     font-size:large;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center center;
-    margin-left: 1500px;
+    text-align: center;
 }
 #alertauno{
     color:aqua ;
@@ -163,9 +147,21 @@ body{
 #calendario2{
     font-size: 30px;
 }
-#chat{
+#geo{
     font-size: 30px;
+    padding-right: 10px;
 }
 #flecha{
     font-size: 30px;
+    cursor: pointer;
+}
+.accordion-multimedia img, .accordion-multimedia iframe {
+    width: 100%;
+    height: 315px;
+}
+.nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
 }

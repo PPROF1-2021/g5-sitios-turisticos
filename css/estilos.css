@@ -18,13 +18,15 @@ body{
 
 
 }
-h1{
+.nosotros {
     text-align: center;
     padding: 10px;
     font-size: 40px;
-    color: #6a6a6a;
     margin-top: 20px;
     font-weight: 100;
+    font-family: "Lato",sans-serif;
+    color: #6a6a6a;
+}
 }
 .card{
     width: 100%;
@@ -34,13 +36,11 @@ h1{
     justify-content: center;
 }
 .card--perfil{
-    width: 310px;
     padding: 20px;
     box-shadow:1px 1px 5px rgb(201, 201, 201) ;
     border:solid rgba(3, 133, 255, 0) 2px;
     border-radius: 10px;
-    
-
+    background-color: #C3E9FD;
 }
 .card--perfil:hover{
     border:solid rgb(3,133, 255) 2px;
@@ -49,7 +49,7 @@ h1{
 .card--perfil:hover img {
     transform: rotate(0);
 }
-img{
+.card--perfil img{
     width: 140px;
     border-radius: 50%;
     box-shadow: 20x 2px 5px ;
@@ -62,7 +62,9 @@ img{
     flex-direction: column;
     align-items: center;
     gap: 5px;
-
+    font-family: "Lato",sans-serif;
+    color: #6a6a6a;
+}
 }
 hr{
     width: 100%;
@@ -71,30 +73,6 @@ hr{
 
 
 }
-
-.nav {
-    list-style:none;
-    padding: 0;
-    background: #092327;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-  }  
-
-  .nav li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-  }
-  .nav li{
-    display: inline-block;
-    text-align: center;
-  }
-  .nav li a:hover{
-    background: #37A0D8;
-  }
-
-
-
-
+.footer {
+    margin-top: 30px;
+}
